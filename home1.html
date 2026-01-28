@@ -1,10 +1,11 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>voyage</title>
 
 </head>
 
@@ -13,14 +14,17 @@
         <img src="search-interface-symbol.png" alt="search boutton" width="30">
         <img src="menu (1).png" alt="menu" width="30">
     </header>
-    <h1 class="text-4xl p-2 text-center">bloger of the week</h1>
+    <div>
+        <h1 class="text-4xl p-2 text-center">bloger of the week</h1>
+    </div>
 
     <section>
+
         <div class="  gap-4 flex  ">
             <div class=" ">
                 <img src="yueying-sun-F9-Em4idgvU-unsplash.jpg" alt="yueying-sun-F9-Em4idgvU-unsplash"
                     class="rounded-full h-18 flex items-center justify-center w-18 ">
-                <p class="flex space-x-4 flex-wrap justify-center items-center">land</p>
+                <h2 class="flex space-x-4 flex-wrap justify-center items-center">land</h2>
             </div>
             <div class=" ">
                 <img src="pexels-juriadi-paddo-1757013033-35423377.jpg" alt="pexels-juriadi-paddo-1757013033-35423377"
@@ -37,12 +41,8 @@
                     class="rounded-full h-18 flex items-center justify-center w-18 ">
                 <p class="flex space-x-4 flex-wrap justify-center items-center">lila</p>
             </div>
-            <div class=" ">
-                <img src="land-o-lakes-inc-IYLLF511aOY-unsplash.jpg" alt="land-o-lakes-inc-IYLLF511aOY-unsplash"
-                    class="rounded-full h-18 flex items-center justify-center w-18 ">
-                <p class="flex space-x-4 flex-wrap justify-center items-center">nora</p>
-            </div>
 
+        </div>
 
     </section>
 
@@ -64,7 +64,7 @@
             <div class=" bg-white shadow-lg rounded-lg">
                 <img src="people.jpg" alt="people" class="rounded-t-lg w-full">
                 <div class="p-4 flex justify-around">
-                    <h3 class="text-2xl">yellow river</h3>
+                    <h2 class="text-2xl">yellow river</h2>
                     <p><img src="location.png" alt="location">maroc</p>
                     <p><img src="clock.png" alt="time" width="16"> 15 min </p>
                     <p><img src="view.png" alt="view" width="16"> 12 K</p>
@@ -78,18 +78,48 @@
 
         </div>
     </section>
-    <br><br>
 
 
-    <section>
-        <div class="flex justify-around "> 
+
+
+    <div>
+
+        <br> <br>
+
+        <div class="flex justify-around ">
             <img src="koba.jpg" alt="koba" width="180" class="rounded-t-lg  rounded-b-lg ">
-       
-          <img src="sale.jpg" alt="koba" width="180" class="rounded-t-lg  rounded-b-lg ">  
+
+            <img src="sale.jpg" alt="koba" width="180" class="rounded-t-lg  rounded-b-lg ">
         </div>
-    </section>
+    </div>
+    <br>
+    <br>
 
 
+    <div class=" flex justify-around sticky bottom-0 rounded-full px-3 py-4 bg-pink-200">
+        <div>
+            <button class="hover:bg-green-500 rounded-full px-3 py-2" >
+                <img src="home.png" alt="home" width="32">
+            </button>
+        </div>
+        <div>
+            <button  class="hover:bg-green-500 rounded-full px-3 py-2">
+                <img src="location.png" alt=" location" width="32">
+            </button>
+        </div>
+        <div>
+            <button  class="hover:bg-green-500 rounded-full px-3 py-2">
+                <img src="heart.png" alt="heart" width="32">
+
+            </button>
+        </div>
+        <div>
+            <button  class="hover:bg-green-500 rounded-full px-3 py-2">
+                <img src="user.png" alt="user" width="32">
+            </button>
+        </div>
+
+    </div>
 
 
 
