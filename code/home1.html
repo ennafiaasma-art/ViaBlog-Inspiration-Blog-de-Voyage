@@ -10,10 +10,26 @@
 </head>
 
 <body>
-    <header class="flex justify-around">
-        <img src="/image/search-interface-symbol.png" alt="search boutton" width="30">
-        <img src="/image/menu (1).png" alt="menu" width="30" class="lg:">
+    <header class="flex justify-between md:justify-end mx-2 ">
+        
+        <img src="/image/search-interface-symbol.png" alt="search boutton" width="30" class="md:hidden">
+        <img src="/image/menu (1).png" alt="menu" width="30" class="md:hidden">
+
+        <nav class="hidden md:flex  gap-5  mr-8 "> 
+        <a href="##">liked</a>
+        <a href="##">location</a>
+        <a href="##">login</a>
+
+    </nav>
+        
+
+       
+
     </header>
+  
+   
+
+
     <div>
         <h1 class="text-4xl p-2 text-center">bloger of the week</h1>
     </div>
@@ -99,7 +115,7 @@
     <br>
 
 
-    <div class=" flex justify-around sticky bottom-0 rounded-full px-3 py-4 bg-pink-200 lg:bg-white">
+    <div class=" flex justify-around sticky bottom-0 rounded-full px-3 py-4 bg-pink-200 lg:bg-white md:hidden">
         <div>
             <button class="hover:bg-green-500  bg-green-600 rounded-full px-3 py-2" >
                 <img src="/image/home.png" alt="home" width="32">
